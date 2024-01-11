@@ -36,7 +36,8 @@ public class Review05 {
 			String input = keyIn();
 			
 			//PreparedStatementオブジェクトの？に値をセット
-			pstmt.setString(1, input);
+			
+			pstmt.setInt(1, Integer.parseInt(input));
 			
 			rs = pstmt.executeQuery();
 			
