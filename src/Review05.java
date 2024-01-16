@@ -24,7 +24,7 @@ public class Review05 {
 			con = DriverManager.getConnection(
 				"jdbc:mysql://localhost/kadaidb?useSSL=false&allowPublicKeyRetrieval=true",
 				"root",
-				"pascal81"
+				"password"
 			);
 					
 			// 4. DBとやりとりする窓口（PreparedStatementオブジェクト）の作成
